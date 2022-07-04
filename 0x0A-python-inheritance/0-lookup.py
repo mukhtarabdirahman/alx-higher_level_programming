@@ -1,10 +1,7 @@
 #!/usr/bin/python3
-''' function that returns the list
-'''
+"""defining the function lookup"""
 
 
 def lookup(obj):
-    ''' function: lookup()
-    Returns a list object
-    '''
+    """returns list object"""
     return dir(obj)
